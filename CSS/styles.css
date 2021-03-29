@@ -6,7 +6,7 @@
   --electric-green: #54e346;
   --lighter-dark: #1e2022;
   --dark-grey: #444444;
-  
+
  } /*end for variables */
 
 
@@ -308,42 +308,3 @@ a:active {
      padding: 5px;
    }
  }
-
- /* Keyframes */
-
-
-
-@keyframes color-change {
-  from {
-    fill: #edc655;
-  }
-  to {
-    fill: #f76414;
-  }
-}
-@keyframes cloud-move {
-  from {
-    transform: translate(0, 50px);
-  }
-  to {
-    transform: translate(200px, 50px);
-  }
-}
-@keyframes cloud-move-reverse {
-  from {
-    transform: translate(446px, 48px);
-  }
-  to {
-    transform: translate(100px, 48px);
-  }
-}
-.sun {
- animation: 20s color-change;
-}
-
-.cloud-front {
- animation: 60s cloud-move infinite alternate linear;
-}
-.cloud-back {
-  animation: 61s cloud-move-reverse infinite alternate linear;
-}
