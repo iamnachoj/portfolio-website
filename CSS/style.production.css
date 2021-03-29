@@ -82,6 +82,11 @@ a:active {
 
 /* header for every html files*/
 
+/* Logo decoration */
+.logo {
+  font-family: 'Major Mono Display', sans-serif;
+}/* end of Logo decoration */
+
 .page-header {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -125,10 +130,6 @@ a:active {
 
 /* SPECIFIC to index.html decoration*/
 
-/* Logo decoration */
-.logo {
-  font-family: 'Major Mono Display', sans-serif;
-}
 
 /* <WEB> simbol in index - decoration */
 .web {
