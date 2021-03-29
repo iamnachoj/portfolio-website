@@ -248,7 +248,6 @@ a:active {
 .footer-container {
   max-width: 400px;
   margin: auto ;
-  clear: both;
   text-align: center;
 }
 
