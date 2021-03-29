@@ -272,7 +272,6 @@ a:active {
      display: grid;
      grid-template-columns: 1fr;
      text-align: center;
-     padding: auto;
      margin: auto;
    }
    .profile__portrait {
