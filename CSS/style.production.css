@@ -30,7 +30,7 @@ p {
 }
 
 .button:hover{
-  background-color: #ff7171;
+  background-color: #f65454;
   border: 1px solid #1e2022;
   border-radius: 10px;
   -webkit-box-shadow: 2px 2px #444444;
@@ -126,13 +126,13 @@ a:active {
 }
 
 .navigation-list a:hover {
-  color: #ff7171;
+  color: #f65454;
 }
 
 /* SPECIFIC to index.html decoration*/
 /* <WEB> simbol in index - decoration */
 .web {
-  color: #ff7171;
+  color: #f65454;
   text-shadow: 1px 1px black;
   font-weight: 400;
 }
@@ -235,7 +235,7 @@ a:active {
 }
 
 .grid_item:hover{
-  border:1px solid #ff7171;
+  border:1px solid #f65454;
   background-color: lightgrey;
 }
 /* footer for all html files*/
