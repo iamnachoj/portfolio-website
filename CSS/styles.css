@@ -225,7 +225,9 @@ a:active {
   border:1px solid var(--secondary-color);
   background-color: lightgrey;
 }
+
 /* footer for all html files*/
+
 .page-footer {
   background-color: var(--dark-grey);
   padding: 0 0 1%;
