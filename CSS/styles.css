@@ -1,0 +1,349 @@
+/* Variables */
+:root {
+
+  --primary-color: #f0f5f9;
+  --secondary-color: #ff7171;
+  --electric-green: #54e346;
+  --lighter-dark: #1e2022;
+  --dark-grey: #444444;
+  
+ } /*end for variables */
+
+
+/* full tags' decoration */
+
+body {
+  background: var(--primary-color);
+  font-family: 'Montserrat', sans-serif;
+}
+p {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+button , .button {
+  border: 1px solid var(--lighter-dark);
+  border-radius: 10px;
+  box-shadow: 2px 2px var(--dark-grey);
+  color: #000000;
+  padding: 15px;
+  margin: 5px auto;
+}
+
+button:hover , .button:hover{
+  background-color: var(--secondary-color);
+  border: 1px solid var(--lighter-dark);
+  border-radius: 10px;
+  box-shadow: 2px 2px var(--dark-grey);
+  color: black;
+  transition: 0.3s all;
+}
+
+.button_CTA {
+  background-color: var(--electric-green);
+}
+
+.button_CTA:hover {
+  background-color: black;
+  color: white;
+}
+table {
+  text-align: center;
+  border:1px solid black;
+  margin-left: auto;
+  margin-right: auto;
+  border-collapse: separate;
+  width: 45%;
+  margin-bottom: 6%;
+}
+th, td {
+  padding: 15px;
+  text-align: left;
+  font-size: 1.5rem;
+}
+
+/* anchor tags' decoration */
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a:focus {
+  text-decoration: none;
+}
+
+a:active {
+  color: var(--lighter-dark);
+}
+
+/* header for every html files*/
+
+.page-header {
+  display: flex;
+  padding: 20px;
+}
+
+.page-header__item {
+  flex: 1 1 auto;
+}
+
+.page-header .page-header__item:last-child {
+  margin-top: 10px;
+  flex-grow: 0;
+  flex-shrink: 2;
+  text-align: right;
+}
+
+.navigation-list {
+  list-style-type: none;
+}
+
+.navigation-list li {
+  display: inline-block;
+  margin-left: 15px;
+  margin-top: 10px;
+}
+
+.navigation-list a {
+  font-size: 20px;
+}
+
+.navigation-list a:hover {
+  color: var(--secondary-color);
+}
+
+/* SPECIFIC to index.html decoration*/
+
+/* Logo decoration */
+.logo {
+  font-family: 'Major Mono Display', sans-serif;
+}
+
+/* <WEB> simbol in index - decoration */
+.web {
+  color: var(--secondary-color);
+  text-shadow: 1px 1px black;
+  font-weight: 400;
+}
+
+.main {
+  width: 70%;
+  padding: 5% 2% 2% 2%;
+  margin: 5% auto;
+  display: flex;
+}
+.main-title{
+  font-size: 3rem;
+}
+.main-text{
+  font-size: 1.5rem;
+}
+.profile__portrait {
+  height: 280px;
+  margin: 3%;
+}
+
+/* SPECIFIC to about.html decoration */
+.about-page{
+  text-align: center;
+  margin: 5%;
+  padding: 0 5%;
+}
+.about_title{
+  padding: 0 15%;
+}
+.about_text{
+  font-size: 1.6rem;
+  line-height: 40px;
+  padding: 0 16%;
+}
+.about-CTA{
+  margin:5%;
+}
+.sevilla_img{
+  width: 427px;
+  height: 146px;
+}
+.end-buttons{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  text-align: center;
+  margin: 2%;
+}
+.berlin-illustration{
+  margin: auto;
+  height: 300px;
+}
+
+/* SPECIFIC to contact.html decoration */
+
+.my-contact{
+  margin-top: 7%;
+  text-align: center;
+}
+
+.contact {
+  height: 35px;
+  border-radius: 10px;
+  margin: 10px;
+  width: 300px ;
+}
+.contact.message{
+  height: 180px;
+}
+
+
+
+
+/* SPECIFIC to work.html decoration */
+
+      /* fallback */
+.grid__item {
+  display: inline-block;
+  width: 33%;
+}
+      /* end of fallback */
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.grid_item {
+  background-color: lightgrey;
+  margin: 10px;
+}
+.grid_item a {
+  color: black;
+}
+
+.grid_item:hover{
+  border:1px solid var(--secondary-color);
+  background-color: lightgrey;
+}
+/* footer for all html files*/
+.page-footer {
+  background-color: var(--dark-grey);
+  padding: 0 0 1%;
+}
+
+.footer-container {
+  max-width: 400px;
+  margin: 13% auto 0;
+  clear: both;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.social-media-item {
+  margin: 1%;
+}
+
+.find-me-on {
+  color: white;
+}
+
+
+
+/* universal */
+* {
+  box-sizing: border-box;
+}
+
+/* Media Queries */
+@media all and (max-width: 900px) {
+  .grid {
+     grid-template-columns: 1fr 1fr;
+     grid-gap: 10px;
+   }
+   .grid__item:last-child {
+     grid-column: auto / auto;
+     grid-row: auto / auto;
+   }
+   .page-header .page-header__item:last-child {
+     margin-top: 0;
+   }
+   .main {
+     display: grid;
+     grid-template-columns: 1fr;
+     text-align: center;
+     padding: auto;
+     margin: auto;
+   }
+   .profile__portrait {
+     margin: auto;
+   }
+   .about_text{
+     line-height: 32px;
+     padding: 0 8%;
+  }
+}
+@media all and (max-width: 600px) {
+  .grid {
+     grid-template-columns: 1fr;
+     grid-gap: 10px;
+   }
+   .profile__portrait {
+     height: 280px;
+     text-align: center;
+     width: auto;
+   }
+   .about_text{
+     font-size: 1.1rem;
+     line-height: 30px;
+     padding: 0 8%;
+   }
+   .sevilla_img{
+     width: 256.2px;
+     height: 87.6px;
+     text-align: center;
+   }
+   th, td {
+     font-size: 0.9rem;
+     padding: 5px;
+   }
+ }
+
+ /* Keyframes */
+
+
+
+@keyframes color-change {
+  from {
+    fill: #edc655;
+  }
+  to {
+    fill: #f76414;
+  }
+}
+@keyframes cloud-move {
+  from {
+    transform: translate(0, 50px);
+  }
+  to {
+    transform: translate(200px, 50px);
+  }
+}
+@keyframes cloud-move-reverse {
+  from {
+    transform: translate(446px, 48px);
+  }
+  to {
+    transform: translate(100px, 48px);
+  }
+}
+.sun {
+ animation: 20s color-change;
+}
+
+.cloud-front {
+ animation: 60s cloud-move infinite alternate linear;
+}
+.cloud-back {
+  animation: 61s cloud-move-reverse infinite alternate linear;
+}

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <link rel="shortcut icon" href="img/cv.ico">
+  <title>Contact Ignacio</title>
+  <meta name="description" content="Ignacio Jimenez Curriculum Porfolio">
+  <meta name="keywords" content="Ignacio-Jimenez Contact Full-stack dveloper">
+  <meta name="author" content="Ignacio Jimenez">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+  <link rel="stylesheet" href="CSS/style.production.css">
+</head>
+
+<body>
+
+  <!-- Navigation bar -->
+
+  <header class="page-header">
+
+    <h1 onclick="location.href='index.html'" class="logo page-header__item">Ignacio Jimenez</h1>
+    <nav class="page-header__item">
+      <ul role="menubar" class="navigation-list">
+        <li role="presentation">
+          <a href="index.html" role="menuitem">Home</a>
+        </li>
+        <li role="presentation">
+          <a href="about.html" role="menuitem">About Me</a>
+        <li role="presentation">
+          <a href="work.html" role="menuitem">Work</a>
+        </li>
+        <li role="presentation">
+          <a href="contact.html" role="menuitem">Contact</a>
+        </li>
+      </ul>
+    </nav>
+
+  </header>
+
+  <!-- my Contact -->
+  <section class="my-contact">
+
+    <div class="find-me">
+
+      <h2>find me here:</h3>
+      <table>
+          <tr>
+            <td>Phone</td>
+            <td><img src="img/wapp.png" alt="" height="15px" /> <a href="tel:+34687056813">+34 687 056 813</a> <br></td>
+          </tr>
+          <tr>
+            <td>Email</td>
+            <td> <img src="img/email.svg" alt="Gmail" height="15px"> <a href="mailto:nachojimenez.94@gmail.com">nachojimenez(dot)94(at)gmail(dot)com</a></td>
+          </tr>
+      </table>
+
+    </div>
+    <!-- form application -->
+
+    <div class="write-me">
+
+      <h2>Or just write me - I'll get back to you!:</h3>
+        <form action="/" method="post" id="contact-form">
+          <label class="standard-label" for="contact-email">E-mail address: *</label><br>
+          <input class="contact email" id="contact-email" type="email" required><br>
+
+          <label class="standard-label" for="contact-phone">Telephone: *</label><br>
+          <input class="contact phone" placeholder="Please insert country code" id="contact-phone" type="tel" required><br>
+
+          <label class="standard-label" for="message">Message: </label><br>
+          <textarea maxlength="350" class="contact message" maxlength="240" id="message"></textarea><br>
+
+          <button class="button" type="submit" value="Send message">Send message</button>
+        </form>
+
+    </div>
+
+  </section>
+  <!-- Footer -->
+
+  <footer class="page-footer">
+    <section class="footer-container">
+      <p class="find-me-on">Find me on:</p>
+      <div class="social-media">
+        <a class="social-media-item" href="mailto:nachojimenez.94@gmail.com"><img src="img/email.svg" alt="Gmail"></a>
+        <a class="social-media-item" href="https://www.linkedin.com/in/ignacio-jimenezjimenez/" target="_blank"><img src="img/linkedin.svg" alt="Linkedin"></a>
+        <a class="social-media-item" href="https://github.com/iamnachoj" target="_blank"><img src="img/github.svg" alt="Github"></a>
+      </div>
+    </section>
+  </footer>
+
+  <script src="js/tota11y.min.js"></script>
+</body>
+
+</html>
