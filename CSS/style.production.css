@@ -241,26 +241,22 @@ a:active {
 /* footer for all html files*/
 .page-footer {
   background-color: #444444;
+  height: 180px;
   margin: 10% auto 0;
   padding: 1% 0 1%;
 }
 
 .footer-container {
+  position: relative;
+  top: 10%;
   max-width: 400px;
   margin: auto ;
-  clear: both;
   text-align: center;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
 }
 
 .social-media-item {
   margin: 1%;
+  padding: 1%;
 }
 
 .find-me-on {
@@ -329,5 +325,8 @@ a:active {
    th, td {
      font-size: 0.9rem;
      padding: 5px;
+   }
+   .description{
+     margin-bottom: 100px;
    }
  }
