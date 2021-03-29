@@ -241,12 +241,13 @@ a:active {
 /* footer for all html files*/
 .page-footer {
   background-color: #444444;
-  padding: 0 0 1%;
+  margin: 10% auto 0;
+  padding: 1% 0 1%;
 }
 
 .footer-container {
   max-width: 400px;
-  margin: 13% auto 0;
+  margin: auto ;
   clear: both;
   text-align: center;
   display: -webkit-box;
