@@ -66,6 +66,7 @@ th, td {
 /* anchor tags' decoration */
 a {
   text-decoration: none;
+  color: black;
 }
 
 a:hover {
