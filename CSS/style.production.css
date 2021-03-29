@@ -326,4 +326,7 @@ a:active {
      font-size: 0.9rem;
      padding: 5px;
    }
+   .description{
+     margin-bottom: 100px;
+   }
  }
