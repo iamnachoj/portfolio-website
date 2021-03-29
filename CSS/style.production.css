@@ -85,6 +85,7 @@ a:active {
 /* Logo decoration */
 .logo {
   font-family: 'Major Mono Display', sans-serif;
+  cursor: pointer;
 }/* end of Logo decoration */
 
 .page-header {
