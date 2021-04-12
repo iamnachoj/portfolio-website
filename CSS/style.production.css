@@ -177,7 +177,12 @@ a:active {
   padding: 0 16%;
 }
 .about-CTA{
-  margin:5%;
+  text-decoration: underline;
+}
+.about-CTA:hover{
+  text-decoration: underline;
+  color: #f65454;
+
 }
 .sevilla_img{
   width: 427px;
@@ -190,10 +195,6 @@ a:active {
   grid-template-columns: 1fr 1fr;
   text-align: center;
   margin: 2%;
-}
-.berlin-illustration{
-  margin: auto;
-  height: 300px;
 }
 
 /* SPECIFIC to contact.html decoration */
