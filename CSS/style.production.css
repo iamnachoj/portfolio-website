@@ -228,6 +228,7 @@ a:active {
 }
 
 .grid_item {
+  padding: 5px;
   background-color: lightgrey;
   margin: 10px;
 }
@@ -236,6 +237,7 @@ a:active {
 }
 
 .grid_item:hover{
+  margin:9px;
   border:1px solid #f65454;
   background-color: lightgrey;
 }
