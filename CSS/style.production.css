@@ -160,13 +160,18 @@ a:active {
 /* SPECIFIC to about.html decoration */
 .about-page{
   text-align: center;
-  margin: 5%;
+  margin: 2%;
   padding: 0 5%;
 }
 .about_title{
   padding: 0 15%;
 }
+.about-full-text{
+  margin-top: 5%;
+}
+
 .about_text{
+  text-align: left;
   font-size: 1.6rem;
   line-height: 40px;
   padding: 0 16%;
