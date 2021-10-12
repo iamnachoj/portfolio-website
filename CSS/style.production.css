@@ -26,7 +26,6 @@ p {
           box-shadow: 2px 2px #444444;
   color: #000000;
   padding: 10px;
-  margin: 5px auto;
 }
 
 .button:hover{
@@ -41,7 +40,7 @@ p {
 }
 
 .button_CTA {
-  background-color: #8ee487;
+  background-color: #A2CDCD;
 }
 
 .button_CTA:hover {
