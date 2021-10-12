@@ -25,7 +25,7 @@ p {
   -webkit-box-shadow: 2px 2px #444444;
           box-shadow: 2px 2px #444444;
   color: #000000;
-  padding: 15px;
+  padding: 10px;
   margin: 5px auto;
 }
 
@@ -54,7 +54,7 @@ table {
   margin-left: auto;
   margin-right: auto;
   border-collapse: separate;
-  width: 45%;
+  width: 50%;
   margin-bottom: 6%;
 }
 th, td {
@@ -368,5 +368,8 @@ a:active {
    }
    .description{
      margin-bottom: 100px;
+   }
+   table{
+     width:65%;
    }
  }
