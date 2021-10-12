@@ -28,7 +28,7 @@ button , .button {
   box-shadow: 2px 2px var(--dark-grey);
   color: #000000;
   padding: 15px;
-  margin: 5px auto;
+  /* margin: 5px auto; */
 }
 
 button:hover , .button:hover{
