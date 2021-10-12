@@ -41,7 +41,7 @@ p {
 }
 
 .button_CTA {
-  background-color: #54e346;
+  background-color: #8ee487;
 }
 
 .button_CTA:hover {
@@ -196,10 +196,10 @@ a:active {
   height: 146px;
 }
 .end-buttons{
-  display: -ms-grid;
+  /* display: -ms-grid;
   display: grid;
   -ms-grid-columns: 1fr 1fr;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr; */
   text-align: center;
   margin: 2%;
 }
