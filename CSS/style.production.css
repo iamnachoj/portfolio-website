@@ -207,7 +207,7 @@ a:active {
 /* SPECIFIC to contact.html decoration */
 
 .my-contact{
-  margin-top: 7%;
+  margin: 13% 0;
   text-align: center;
 }
 
@@ -253,8 +253,10 @@ a:active {
 .page-footer {
   background-color: #444444;
   height: 180px;
-  margin: 10% auto 0;
   padding: 1% 0 1%;
+  clear: both;
+  position: relative;
+  margin-top: -200px auto ;
 }
 
 .footer-container {
