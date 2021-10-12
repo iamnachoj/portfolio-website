@@ -214,9 +214,6 @@ a:active {
   height: 180px;
 }
 
-
-
-
 /* SPECIFIC to work.html decoration */
 .porfolio-title{
   margin: 10px;
@@ -236,18 +233,14 @@ a:active {
 }
 
 .grid_item {
-  margin:10px;
-  padding: 5px;
+  margin: 10px;
+  padding: 30px 10px;
   background-color: lightgrey;
-}
-.grid_item a {
-  color: black;
+  height: 97%;
 }
 
 .grid_item:hover{
-  margin:9px;
-  border:1px solid #f65454;
-  background-color: lightgrey;
+  background-color: rgb(219, 219, 219);
 }
 /* footer for all html files*/
 .page-footer {
