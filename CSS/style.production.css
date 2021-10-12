@@ -218,7 +218,9 @@ a:active {
 
 
 /* SPECIFIC to work.html decoration */
-
+.porfolio-title{
+  margin: 10px;
+}
       /* fallback */
 .grid__item {
   display: inline-block;
@@ -234,9 +236,9 @@ a:active {
 }
 
 .grid_item {
+  margin:10px;
   padding: 5px;
   background-color: lightgrey;
-  margin: 10px;
 }
 .grid_item a {
   color: black;
