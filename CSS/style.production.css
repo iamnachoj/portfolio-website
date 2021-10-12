@@ -371,4 +371,15 @@ a:active {
    table{
      width:65%;
    }
+   .my-contact{
+    margin: 43% 0;
+   }
+   .table-contact{
+     width: 90%;
+     
+   }
+   section table td{
+     font-size: 1.1rem;
+     text-align: center;
+   }
  }
