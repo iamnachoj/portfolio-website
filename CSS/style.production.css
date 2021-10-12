@@ -206,7 +206,7 @@ a:active {
 /* SPECIFIC to contact.html decoration */
 
 .my-contact{
-  margin: 13% 0;
+  margin: 12% 0 25%;
   text-align: center;
 }
 
@@ -339,6 +339,17 @@ a:active {
      line-height: 32px;
      padding: 0 8%;
   }
+  .my-contact{
+    margin: 43% 0;
+   }
+   .table-contact{
+     width: 90%;
+     
+   }
+   section table td{
+     font-size: 1.1rem;
+     text-align: center;
+   }
 }
 @media all and (max-width: 600px) {
   .grid {
