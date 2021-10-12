@@ -2,7 +2,9 @@
 
 ## Profile
 
-Personal Porfolio website built with pure HTML, CSS and Javascript code.
+Personal, minimalistic Porfolio website built with pure HTML, CSS and Javascript code.
+
+The idea behind is to be plain and simple, showing few projects and a description about oneself. 
 
 ## Features
 
