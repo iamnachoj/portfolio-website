@@ -2,21 +2,21 @@
 
 ## Profile
 
-Full Stack Web developer with a background in sales and account management, leveraging my consumer-focused mindset and communication skills to help create innovative solutions and positive user experience for all.
+Personal Porfolio website built with pure HTML, CSS and Javascript code.
 
-Currently learning about the use of most popular frameworks in the market, and building my own projects.
-
-"keep it lean" #entrepeneourship
-
-## About porfolio web
-
-Built with basic, clean HTML, CSS and some JS code, in this simple static website I showcase my porfolio and describe myself in an simple, natural way.
+## Features
 
 - The site is full responsive and enabled in Chrome, Firefox, Safari, Edge, and Internet Explorer 11.
 - Makes use of all best-practice and most used UI patterns in the market. 
+- Stays minimalistic, with the aim of focusing on the content
 
-
-Please feel free to leave your comments about the page and fork it to use it as a template.
+## Deployment
 
 Check it out <a href="https://iamnachoj.github.io/portfolio-website/">here</a>! 
+
+It is a static website and therefore has no use of anything more than vanilla JS and cannot keep any information stored in a db. 
+
+- Clone repository
+- alternate personal information to the porfolio with your own work and style
+- post it to gh-pages or create your own domain. 
 
