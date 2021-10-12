@@ -200,7 +200,7 @@ a:active {
   -ms-grid-columns: 1fr 1fr;
   grid-template-columns: 1fr 1fr; */
   text-align: center;
-  margin: 2%;
+  margin: 30px;
 }
 
 /* SPECIFIC to contact.html decoration */
