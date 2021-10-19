@@ -175,7 +175,7 @@ a:active {
 
 /* SPECIFIC to work.html decoration */
 .porfolio-title{
-  margin: 10px;
+  margin: 10px 10px 10px 40px;
 }
       /* fallback */
 .grid__item {
@@ -185,6 +185,7 @@ a:active {
       /* end of fallback */
 
 .grid {
+  margin:0 30px ;
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 1fr 1fr 1fr;
