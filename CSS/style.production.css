@@ -278,7 +278,7 @@ a:active {
 }
 
 /* Media Queries */
-@media all and (max-width: 900px) {
+@media all and (max-width: 1100px) {
   .grid {
      -ms-grid-columns: 1fr 10px 1fr;
      grid-template-columns: 1fr 1fr;
@@ -292,7 +292,7 @@ a:active {
      margin-top: 0;
    }
    .main {
-     width: 70%;
+     width: 80%;
      display: -ms-grid;
      display: grid;
      -ms-grid-columns: 1fr;
@@ -319,7 +319,7 @@ a:active {
      text-align: center;
    }
 }
-@media all and (max-width: 600px) {
+@media all and (max-width: 700px) {
   .grid {
      margin: 0 10px;
      -ms-grid-columns: 1fr;
