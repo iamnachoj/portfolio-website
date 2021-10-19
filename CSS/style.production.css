@@ -346,6 +346,9 @@ a:active {
      text-align: center;
      width: auto;
    }
+   .about-page{
+    width: 90%;
+  }
    .about_text{
      font-size: 1.1rem;
      line-height: 30px;
@@ -377,4 +380,7 @@ a:active {
      font-size: 1.1rem;
      text-align: center;
    }
+   .end-buttons a{
+    margin: 0 30px;
+  }
  }
