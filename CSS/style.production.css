@@ -30,12 +30,12 @@ p {
 }
 
 .button:hover{
-  background-color: #f65454;
+  background-color: #ff6868;
   border: 1px solid #1e2022;
   border-radius: 10px;
   -webkit-box-shadow: 2px 2px #444444;
           box-shadow: 2px 2px #444444;
-  color: black;
+  color: rgb(255, 255, 255);
   -webkit-transition: 0.3s all;
   transition: 0.3s all;
 }
@@ -45,7 +45,7 @@ p {
 }
 
 .button_CTA:hover {
-  background-color: black;
+  background-color: rgb(89, 153, 255);
   color: white;
 }
 table {
@@ -207,9 +207,10 @@ a:active {
 }
 .grid_item > a:hover {
   background-color: rgba(255, 255, 255, 0.781);
+  color: black;
 }
 .grid_item:hover{
-  opacity: 0.9;
+  opacity: 0.95;
 }
 
 /* PROJECTS */
@@ -235,7 +236,7 @@ a:active {
   color:  rgb(0, 0, 0);
 }
 .pokedex{
-  background-color: #D57E7E;
+  background-color: #e9a7a7;
   color: rgb(0, 0, 0);
 }
 
