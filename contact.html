@@ -14,32 +14,41 @@
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
   <link rel="stylesheet" href="CSS/style.production.css">
+  <link rel="stylesheet" href="CSS/navbar.css">
 </head>
 
 <body>
 
   <!-- Navigation bar -->
 
-  <header class="page-header">
-
-    <h1 onclick="location.href='index.html'" class="logo page-header__item">Ignacio Jimenez</h1>
-    <nav class="page-header__item">
-      <ul role="menubar" class="navigation-list">
-        <li role="presentation">
-          <a href="index.html" role="menuitem">Home</a>
-        </li>
-        <li role="presentation">
-          <a href="about.html" role="menuitem">About Me</a>
-        <li role="presentation">
-          <a href="work.html" role="menuitem">Work</a>
-        </li>
-        <li role="presentation">
-          <a href="contact.html" role="menuitem">Contact</a>
-        </li>
-      </ul>
-    </nav>
-
-  </header>
+  <!-- navbar custom -->
+<header>
+  <div class="nav">
+    <input type="checkbox" id="nav-check">
+    
+    <div class="nav-header">
+      <div class="nav-title logo ">
+        <h1> Ignacio Jimenez</h1>
+      </div>
+    </div>
+    
+    <div class="nav-btn">
+      <label for="nav-check">
+        <span></span>
+        <span></span>
+        <span></span>
+      </label>
+    </div>
+    
+    <div class="nav-links">
+      <a href="index.html" >Home</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+      <a href="work.html">Work</a>
+      <a href="#" target="_blank">Blog</a>
+    </div>
+  </div>
+</header>
 
   <!-- my Contact -->
   <section class="my-contact">
