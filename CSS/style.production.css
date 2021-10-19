@@ -292,6 +292,7 @@ a:active {
      margin-top: 0;
    }
    .main {
+     width: 70%;
      display: -ms-grid;
      display: grid;
      -ms-grid-columns: 1fr;
