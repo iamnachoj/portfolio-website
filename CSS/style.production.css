@@ -350,7 +350,7 @@ a:active {
     width: 90%;
   }
    .about_text{
-     font-size: 1.1rem;
+     font-size: 0.95rem;
      line-height: 30px;
      padding: 0 8%;
    }
@@ -360,6 +360,7 @@ a:active {
      text-align: center;
    }
    th, td {
+     text-align: center;
      font-size: 0.9rem;
      padding: 5px;
    }
@@ -367,7 +368,7 @@ a:active {
      margin-bottom: 100px;
    }
    table{
-     width:65%;
+     width:80%;
    }
    .my-contact{
     margin: 43% 0;
@@ -377,10 +378,10 @@ a:active {
      
    }
    section table td{
-     font-size: 1.1rem;
+     font-size: 0.8rem;
      text-align: center;
    }
    .end-buttons a{
-    margin: 0 30px;
+    margin: 0 10px;
   }
  }
