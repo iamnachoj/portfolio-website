@@ -41,7 +41,7 @@ p {
 }
 
 .button_CTA {
-  background-color: #A2CDCD;
+  background-color: #ffffff;
 }
 
 .button_CTA:hover {
@@ -192,31 +192,34 @@ a:active {
 }
 
 .grid_item {
-  margin: 10px;
+  border-radius: 15px;
+  margin: 20px 10px 20px 10px;
   padding: 30px 10px;
   height: 97%;
 }
-
+.grid_item > a:hover {
+  background-color: rgba(255, 255, 255, 0.781);
+}
 .grid_item:hover{
   opacity: 0.9;
 }
 
 /* PROJECTS */
 .movieAPI{
-  background-color: #C6D57E;
+  background-color: #A2CDCD ;
   color: rgb(0, 0, 0);
 }
 .myFlix{
-  background-color:#D57E7E;
+  background-color:#FFE1AF;
   color:  rgb(0, 0, 0);
 }
 
 .chatApp{
-  background-color: #A2CDCD;
+  background-color: #FFDEFA;
   color:  rgb(0, 0, 0);
 }
 .meetApp {
-  background-color: #FFE1AF;
+  background-color:#C6D57E ;
   color:  rgb(0, 0, 0);
 }
 .myFlix-angular{
@@ -224,7 +227,7 @@ a:active {
   color:  rgb(0, 0, 0);
 }
 .pokedex{
-  background-color: #FFDEFA;
+  background-color: #D57E7E;
   color: rgb(0, 0, 0);
 }
 
