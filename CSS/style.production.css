@@ -319,10 +319,17 @@ a:active {
 }
 @media all and (max-width: 600px) {
   .grid {
+     margin: 0 10px;
      -ms-grid-columns: 1fr;
      grid-template-columns: 1fr;
      grid-gap: 10px;
    }
+   .porfolio-title{
+    margin: 10px 10px 10px 20px;
+  }
+  .porfolio-subtitle{
+    margin: 10px 10px 10px 20px;
+  }
    .profile__portrait {
      height: 250px;
      text-align: center;
