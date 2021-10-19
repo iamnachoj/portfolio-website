@@ -177,6 +177,9 @@ a:active {
 .porfolio-title{
   margin: 10px 10px 10px 40px;
 }
+.porfolio-subtitle{
+  margin: 10px 10px 10px 40px;
+}
       /* fallback */
 .grid__item {
   display: inline-block;
