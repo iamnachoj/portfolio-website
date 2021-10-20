@@ -54,7 +54,7 @@ table {
   margin-left: auto;
   margin-right: auto;
   border-collapse: separate;
-  width: 50%;
+  width: 100%;
   margin-bottom: 6%;
 }
 th, td {
@@ -120,7 +120,7 @@ a:active {
 }
 .about-page{
   margin: auto;
-  width: 50%;
+  width: 45%;
 }
 .about-full-text{
   margin-top: 5%;
@@ -283,6 +283,11 @@ a:active {
 }
 
 /* Media Queries */
+@media all and (max-width: 1300px) {
+  .about-page{
+    width: 65%;
+   }
+}
 @media all and (max-width: 1100px) {
   .grid {
      -ms-grid-columns: 1fr 10px 1fr;
@@ -311,16 +316,15 @@ a:active {
    .about_title{
     padding: 0 8%;
    }
+   .about-page{
+    width: 85%;
+   }
    .about_text{
      line-height: 32px;
      padding: 0 8%;
   }
-  .my-contact{
-    margin: 43% 0;
-   }
-   .table-contact{
-     width: 90%;
-     
+   table {
+     width:70%;
    }
    section table td{
      font-size: 1.1rem;
