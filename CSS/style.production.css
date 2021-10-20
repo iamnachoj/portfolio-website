@@ -120,10 +120,7 @@ a:active {
 }
 .about-page{
   margin: auto;
-  width: 60%;
-}
-.about_title{
-  padding: 0 15%;
+  width: 50%;
 }
 .about-full-text{
   margin-top: 5%;
@@ -133,7 +130,6 @@ a:active {
   text-align: left;
   font-size: 1.5rem;
   line-height: 40px;
-  padding: 0 16%;
 }
 .about-CTA{
   text-decoration: underline;
@@ -312,6 +308,9 @@ a:active {
    .profile__portrait {
      margin: auto;
    }
+   .about_title{
+    padding: 0 8%;
+   }
    .about_text{
      line-height: 32px;
      padding: 0 8%;
@@ -352,7 +351,6 @@ a:active {
    .about_text{
      font-size: 0.95rem;
      line-height: 30px;
-     padding: 0 8%;
    }
    .sevilla_img{
      width: 256.2px;
