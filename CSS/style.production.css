@@ -209,18 +209,33 @@ a:active {
   background-color: rgba(255, 255, 255, 0.781);
   color: black;
 }
-.item-logo{
+/* There are 2 classes: item-logo, and item-logo-large. they work for pictures with same height and width, and pics 
+with longer width than height respectively */
+.item-logo{  
   width: 40%;
+  height:160px ;
   margin: auto;
   text-align: center;
 }
+.item-logo-large{
+  width: 40%;
+  height:140px ;
+  margin: auto;
+  text-align: center;
+}
+.item-logo-large img{
+  height: auto;
+  width: 80%;
+  display: block;
+  margin: 20px auto 21%;
+}
 .item-logo img {
-  width:50%;
+  height: auto;
+  width: 60%;
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
-
 /* footer for all html files*/
 .page-footer {
   background-color: #444444;
