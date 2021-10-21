@@ -200,44 +200,25 @@ a:active {
 .grid_item {
   border-radius: 15px;
   margin: 10px 10px;
-  padding: 30px 10px;
+  padding: 20px 20px 50px;
   box-shadow: 0px 0px 1px 1px rgba(0,0,0,0.49);
   -webkit-box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.49);
   -moz-box-shadow: 0px 0px 1px 1px rgba(0,0,0,0.49);
 }
-.grid_item > a:hover {
+.grid_item  a:hover {
   background-color: rgba(255, 255, 255, 0.781);
   color: black;
 }
-.grid_item:hover{
-  opacity: 0.95;
+.item-logo{
+  width: 40%;
+  margin: auto;
+  text-align: center;
 }
-
-/* PROJECTS */
-.movieAPI{
-  background-color: #A2CDCD ;
-  color: rgb(0, 0, 0);
-}
-.myFlix{
-  background-color:#FFE1AF;
-  color:  rgb(0, 0, 0);
-}
-
-.chatApp{
-  background-color: #FFDEFA;
-  color:  rgb(0, 0, 0);
-}
-.meetApp {
-  background-color:#C6D57E ;
-  color:  rgb(0, 0, 0);
-}
-.myFlix-angular{
-  background-color: #A2D2FF;
-  color:  rgb(0, 0, 0);
-}
-.pokedex{
-  background-color: #e9a7a7;
-  color: rgb(0, 0, 0);
+.item-logo img {
+  width:50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /* footer for all html files*/
