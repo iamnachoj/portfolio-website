@@ -213,7 +213,7 @@ a:active {
 with longer width than height respectively */
 .item-logo{  
   width: 40%;
-  height:160px ;
+  height:170px ;
   margin: auto;
   text-align: center;
 }
@@ -278,6 +278,11 @@ with longer width than height respectively */
 }
 
 /* Media Queries */
+@media all and (min-width: 1990px) {
+  .item-logo{
+    height: 50%;
+   }
+}
 @media all and (max-width: 1300px) {
   .about-page{
     width: 65%;
@@ -382,3 +387,8 @@ with longer width than height respectively */
     margin: 0 10px;
   }
  }
+ @media all and (max-width: 500px) {
+ .item-logo{ 
+  height:140px ;
+ }
+}
