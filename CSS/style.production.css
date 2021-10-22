@@ -157,6 +157,9 @@ a:active {
 .end-buttons a{
   margin: 0 50px;
 }
+.arrow{
+  width: 15px;
+}
 
 /* SPECIFIC to contact.html decoration */
 
