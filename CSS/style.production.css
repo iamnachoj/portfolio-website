@@ -100,8 +100,10 @@ a:active {
 }
 .main-title{
   font-size: 3rem;
+  font-family: 'Source Code Pro', monospace;
 }
 .main-text{
+  font-weight: 400;
   font-size: 1.5rem;
   line-height: 1cm;
 }
