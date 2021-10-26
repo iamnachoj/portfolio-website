@@ -272,7 +272,9 @@ with longer width than height respectively */
   margin: 1%;
   padding: 1%;
 }
-
+.twitter{
+  height:30px;
+}
 .find-me-on {
   color: white;
 }
