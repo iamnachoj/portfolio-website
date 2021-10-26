@@ -393,6 +393,9 @@ with longer width than height respectively */
      font-size: 0.8rem;
      text-align: center;
    }
+   .end-buttons{
+     margin: 18px;
+   }
    .end-buttons a{
     margin: 0 10px;
   }
