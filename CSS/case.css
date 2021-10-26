@@ -57,10 +57,13 @@
   clear: both;
   line-height : 30px;
 }
-.case-gallery{
+figcaption{
   text-align: center;
+  margin: 2px
 }
 .case-gallery img{
+  display: block;
+  margin: auto;
   border-radius: 5px;
   box-shadow: 4px 6px 22px -2px rgba(0,0,0,0.44);
   -webkit-box-shadow: 0 -2px 10px 2px rgba(0,0,0,0.44);
@@ -111,6 +114,9 @@
   .case img {
     width: 100%;
   }
+  .case-gallery img{
+    width: 100%;
+  }
   .case {
     font-size: 90%;
   }
@@ -120,5 +126,8 @@
   }
   .case-buttons a{
     margin: 0 0;
+  }
+  figcaption{
+    text-align: left;
   }
 }
