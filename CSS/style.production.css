@@ -160,6 +160,14 @@ a:active {
 .arrow{
   width: 15px;
 }
+.stack{
+  margin: 5% 0 -50px 0;
+  text-align: center;
+}
+.stack img{
+  height: 60px;
+  margin:0 2%;
+}
 
 /* SPECIFIC to contact.html decoration */
 
@@ -385,6 +393,10 @@ with longer width than height respectively */
    }
    .end-buttons a{
     margin: 0 10px;
+  }
+  .stack img{
+    height: 40px;
+    margin:0 2%;
   }
  }
  @media all and (max-width: 500px) {
