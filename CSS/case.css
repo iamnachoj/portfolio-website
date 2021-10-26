@@ -76,6 +76,7 @@
 
 .case-buttons a{
   margin: 0 10px;
+  line-height: 40px;
   font-size: 1.3rem;
 }
 
@@ -104,5 +105,20 @@
   }
   .case-buttons a{
     font-size: 1rem;
+  }
+}
+@media (max-width:700px) {
+  .case img {
+    width: 100%;
+  }
+  .case {
+    font-size: 90%;
+  }
+  article p{
+    font-size: 100%;
+    line-height: 150%;
+  }
+  .case-buttons a{
+    margin: 0 0;
   }
 }
