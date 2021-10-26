@@ -1,0 +1,76 @@
+.case h1 {
+  text-align: center;
+}
+.case article{
+  margin-right:10px;
+}
+.case-intro{
+  text-align: justify;
+  margin: 2% 10%;
+  padding: 10px;
+  clear: both;
+  line-height : 30px;
+}
+.case-intro img {
+  border-radius: 5px;
+  float: right;
+  margin: 2% 0 0 5% ;
+  box-shadow: 4px 6px 22px -2px rgba(0,0,0,0.44);
+  -webkit-box-shadow: 4px 6px 22px -2px rgba(0,0,0,0.44);
+  -moz-box-shadow: 4px 6px 22px -2px rgba(0,0,0,0.44);
+}
+
+.case-middle img {
+  border-radius: 5px;
+  float: left;
+  margin: 2% 5% 0 0 ;
+  box-shadow: 4px 6px 22px -2px rgba(0,0,0,0.44);
+  -webkit-box-shadow: 4px 6px 22px -2px rgba(0,0,0,0.44);
+  -moz-box-shadow: 4px 6px 22px -2px rgba(0,0,0,0.44);
+}
+
+.case-middle{
+  text-align: justify;
+  margin: 2% 10%;
+  padding: 10px;
+  clear: both;
+  line-height : 30px;
+}
+
+.case-final img{
+  border-radius: 5px;
+  float: right;
+  margin: 2% 0 0 5% ;
+  box-shadow: 4px 6px 22px -2px rgba(0,0,0,0.44);
+  -webkit-box-shadow: 4px 6px 22px -2px rgba(0,0,0,0.44);
+  -moz-box-shadow: 4px 6px 22px -2px rgba(0,0,0,0.44);
+}
+
+.case-final{
+  text-align: justify;
+  margin: 2% 10%;
+  padding: 10px;
+  clear: both;
+  line-height : 30px;
+}
+.case-gallery{
+  text-align: center;
+}
+.case-gallery img{
+  border-radius: 5px;
+  box-shadow: 4px 6px 22px -2px rgba(0,0,0,0.44);
+  -webkit-box-shadow: 4px 6px 22px -2px rgba(0,0,0,0.44);
+  -moz-box-shadow: 4px 6px 22px -2px rgba(0,0,0,0.44);
+}
+.case-end{
+  margin: 5% 10%;
+}
+
+.case-buttons{
+  text-align: center;
+}
+
+.case-buttons a{
+  margin: 0 10px;
+  font-size: 1.3rem;
+}
