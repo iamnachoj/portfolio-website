@@ -130,8 +130,10 @@ a:active {
 
 .about_text{
   text-align: left;
-  font-size: 1.5rem;
+  font-size: 1.4rem;
   line-height: 40px;
+  text-align: justify;
+  text-justify: distribute;
 }
 .about-CTA{
   text-decoration: underline;
@@ -368,8 +370,11 @@ with longer width than height respectively */
    .about-page{
     width: 90%;
   }
+   .about_title{
+     text-align: center;
+   }
    .about_text{
-     font-size: 0.95rem;
+     font-size: 1.05rem;
      line-height: 30px;
    }
    .sevilla_img{
