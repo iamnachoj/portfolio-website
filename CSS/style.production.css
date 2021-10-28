@@ -128,7 +128,7 @@ a:active {
   margin-top: 5%;
 }
 
-.about_text{
+.about-text{
   text-align: left;
   font-size: 1.5rem;
   line-height: 40px;
@@ -326,13 +326,13 @@ with longer width than height respectively */
    .profile__portrait {
      margin: auto;
    }
-   .about_title{
+   .about-title{
     padding: 0 8%;
    }
    .about-page{
     width: 85%;
    }
-   .about_text{
+   .about-text{
      line-height: 32px;
      padding: 0 8%;
   }
@@ -366,9 +366,9 @@ with longer width than height respectively */
      width: auto;
    }
    .about-page{
-    width: 90%;
+    width: 100%;
   }
-   .about_text{
+   .about-text{
      font-size: 1.05rem;
      line-height: 30px;
    }
