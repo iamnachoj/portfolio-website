@@ -11,6 +11,9 @@
 .case div{
   margin: 2% 10%;
 }
+.case ul {
+  font-size: 110%;
+}
 .case-intro{
   text-align: justify;
   padding: 10px;
