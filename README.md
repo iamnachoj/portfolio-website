@@ -14,7 +14,7 @@ The idea behind is to be plain and simple, showing few projects and a descriptio
 
 ## Deployment
 
-Check it out <a href="https://iamnachoj.github.io/portfolio-website/">here</a>! 
+Check it out <a target="_blank" href="https://iamnachoj.github.io/portfolio-website/">here</a>! 
 
 It is a static website and therefore has no use of anything more than vanilla JS and cannot keep any information stored in a db. 
 
