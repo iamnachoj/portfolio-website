@@ -247,6 +247,9 @@ with longer width than height respectively */
   margin-left: auto;
   margin-right: auto;
 }
+.dev-resources-image {
+    font-size: 80px
+}
 /* footer for all html files*/
 .page-footer {
   background-color: #444444;
