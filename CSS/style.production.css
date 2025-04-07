@@ -417,4 +417,7 @@ with longer width than height respectively */
  .item-logo{ 
   height:140px ;
  }
+ .dev-resources-image {
+     font-size: 60px
+ }
 }
