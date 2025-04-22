@@ -98,7 +98,7 @@
     height: 0px;
   }
   .nav > #nav-check:checked ~ .nav-links {
-    height: 32vh;
+    height: auto;
     overflow-y: auto;
   }
 }
