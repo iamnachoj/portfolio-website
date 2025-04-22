@@ -285,6 +285,11 @@ with longer width than height respectively */
   color: white;
 }
 
+.skills-list li {
+  margin-left: 20px;
+  margin-top: 8px;
+}
+
 
 
 /* universal */
