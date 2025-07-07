@@ -2,6 +2,7 @@
 :root {
 
   --primary-color: #f0f5f9;
+  --primary-color-end: #7bc6ff;
   --secondary-color: #f65454;
   --electric-green: #54e346;
   --lighter-dark: #1e2022;
@@ -13,7 +14,7 @@
 /* full tags' decoration */
 
 body {
-  background: var(--primary-color);
+  background: linear-gradient(135deg, var(--primary-color), var(--primary-color-end));
   font-family: 'Montserrat', sans-serif;
 }
 p {
