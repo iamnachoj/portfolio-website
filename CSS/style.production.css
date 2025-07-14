@@ -213,7 +213,8 @@ a:active {
 }
 
 .grid_item {
-  background-color: rgb(255, 255, 255);
+  /*background-color: rgb(255, 255, 255);*/
+  background: linear-gradient(135deg, #ffffff, #fff8f8);
   border-radius: 15px;
   margin: 10px 10px;
   padding: 20px 20px 50px;
