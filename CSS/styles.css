@@ -60,11 +60,11 @@
 }
 @media (max-width: 900px) {
   .brands-track {
-    animation: brands-scroll 12s linear infinite alternate;
+    animation: brands-scroll 9s linear infinite alternate;
   }
   @keyframes brands-scroll {
-    0% { transform: translateX(0); }
-    100% { transform: translateX(-30%); }
+    0% { transform: translateX(7%); }
+    100% { transform: translateX(-45%); }
   }
 }
 /* Spring up animation for main description */
