@@ -1,3 +1,19 @@
+/* Place stack margin after brands section for correct cascade */
+.brands-marquee + .stack {
+  margin-top: 30px;
+}
+/* Brand link hover effect */
+.brand-link {
+  display: inline-block;
+  border-radius: 12px;
+  transition: background 0.3s, box-shadow 0.3s, transform 0.2s;
+  padding: 2px 4px;
+}
+.brand-link:hover {
+  background: #e0f0ff;
+  box-shadow: 0 2px 12px 0 rgba(80,160,255,0.12);
+  transform: scale(1.07);
+}
 /* Brands marquee section */
 .brands-marquee {
   width: 100vw;
