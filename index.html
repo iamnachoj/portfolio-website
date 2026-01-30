@@ -1,88 +1,184 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en" dir="ltr">
+  <head>
+    <style>
+      body {
+        min-height: 100vh;
+        margin: 0;
+        padding: 0;
+        position: relative;
+        overflow-x: hidden;
+      }
+      .animated-bg-fog {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vh;
+        z-index: -1;
+        pointer-events: none;
+        background: linear-gradient(
+          -45deg,
+          #a1c4fd,
+          #c2e9fb,
+          rgb(184, 113, 255)
+        );
+        background-size: 400% 400%;
+        animation: gradientBG 15s ease infinite;
+        filter: blur(40px) saturate(1.2);
+        opacity: 0.85;
+        transition: opacity 0.5s;
+      }
+      @keyframes gradientBG {
+        0% {
+          background-position: 0% 50%;
+        }
+        50% {
+          background-position: 100% 50%;
+        }
+        100% {
+          background-position: 0% 50%;
+        }
+      }
+    </style>
+    <link rel="stylesheet" href="CSS/styles.css" />
+    <meta charset="utf-8" />
+    <link rel="shortcut icon" href="img/cv.ico" />
+    <title>Ignacio Jimenez' Porfolio</title>
+    <meta name="description" content="Ignacio Jimenez Curriculum Porfolio" />
+    <meta
+      name="keywords"
+      content="Ignacio-Jimenez Contact Full-stack developer"
+    />
+    <meta name="author" content="Ignacio Jimenez" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@200;400&display=swap"
+      rel="stylesheet"
+    />
+    <!-- css -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+    />
+    <link rel="stylesheet" href="CSS/style.production.css" />
+    <link rel="stylesheet" href="CSS/navbar.css" />
+  </head>
 
-<head>
-  <meta charset="utf-8">
-  <link rel="shortcut icon" href="img/cv.ico">
-  <title>Ignacio Jimenez' Porfolio</title>
-  <meta name="description" content="Ignacio Jimenez Curriculum Porfolio">
-  <meta name="keywords" content="Ignacio-Jimenez Contact Full-stack developer">
-  <meta name="author" content="Ignacio Jimenez">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <!-- Google fonts -->
-  <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@200;400&display=swap" rel="stylesheet">
-  <!-- css -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
-  <link rel="stylesheet" href="CSS/style.production.css">
-  <link rel="stylesheet" href="CSS/navbar.css">
-</head>
+  <body>
+    <div class="animated-bg-fog"></div>
+    <!-- Navigation bar -->
 
-<body>
+    <!-- navbar custom -->
+    <header>
+      <div class="nav">
+        <input type="checkbox" id="nav-check" />
 
-<!-- Navigation bar -->
+        <div class="nav-header">
+          <div class="nav-title logo">
+            <h1><a href="index.html">Ignacio Jimenez</a></h1>
+          </div>
+        </div>
 
-  <!-- navbar custom -->
-<header>
-  <div class="nav">
-    <input type="checkbox" id="nav-check">
-    
-    <div class="nav-header">
-      <div class="nav-title logo ">
-        <h1><a href="index.html">Ignacio Jimenez</a></h1>
+        <div class="nav-btn">
+          <label for="nav-check">
+            <span></span>
+            <span></span>
+            <span></span>
+          </label>
+        </div>
+
+        <div class="nav-links">
+          <a href="index.html">Home</a>
+          <a href="about.html">About</a>
+          <a href="work.html">Portfolio</a>
+          <a href="https://js-corner.vercel.app/" target="_blank">Blog</a>
+        </div>
       </div>
-    </div>
-    
-    <div class="nav-btn">
-      <label for="nav-check">
-        <span></span>
-        <span></span>
-        <span></span>
-      </label>
-    </div>
-    
-    <div class="nav-links">
-      <a href="index.html" >Home</a>
-      <a href="about.html">About</a>
-      <a href="work.html">Portfolio</a>
-      <a href="https://js-corner.vercel.app/" target="_blank">Blog</a>
-    </div>
-  </div>
-</header>
-
-  <!-- Welcome section -->
-
-  <main class="main">
-    <img src="img/me.png" alt="Ignacio Jimenez' profile picture" class="profile__portrait">
-    <header class="description">
-      <h1 class="main-title">Hello World!</h1>
-    <p class="main-text">My name is <span title="very handsome guy">Ignacio Jimenez,</span> and I am a Full-Stack <span class="web"><b>&lt;JavaScript&gt;</b></span> developer from Spain.</p><br>
-    <a href="about.html" style="margin-right: 10px"class="button">About</a><a href="work.html" class="button">See Portfolio</a>
     </header>
-  </main>
-  <section class="stack">
-    <img src="img/tools/HTML5.png" alt="HTML5">
-    <img src="img/tools/CSS3.png" alt="CSS3">
-    <img src="img/tools/JavaScript.png" alt="JS">
-    <img src="img/tools/NODE.png" alt="Node">
-    <img src="img/tools/React.js.png" alt="React">
-    <img src="img/tools/Angular.js.png" alt="Angular">
-  </section>
-  <!-- Footer -->
-<footer class="page-footer">
-  <section class="footer-container">
-    <p class="find-me-on">Find me on:</p>
-    <div class="social-media">
-      <a class="social-media-item" href="mailto:ignajimjim@gmail.com"><img src="img/email.svg" alt="Gmail"></a>
-      <a class="social-media-item" href="https://www.linkedin.com/in/ignacio-jimenezjimenez/" target="_blank"><img src="img/linkedin.svg" alt="Linkedin"></a>
-      <a class="social-media-item" href="https://github.com/iamnachoj" target="_blank"><img src="img/github.svg" alt="Github"></a>
-      <a class="social-media-item" href="https://twitter.com/Iamnachoj" target="_blank"><img class="twitter"src="img/twitter.png" alt="twitter"></a>
-    </div>
-  </section>
-</footer>
-</body>
 
+    <!-- Welcome section -->
+
+    <main class="main">
+      <img
+        src="img/me.png"
+        alt="Ignacio Jimenez' profile picture"
+        class="profile__portrait"
+      />
+      <header class="description">
+        <h1 class="main-title spring-up">Hello World!</h1>
+        <p class="main-text spring-up">
+          I am
+          <span title="very handsome guy"
+            ><span class="web"
+              ><b><span>&lt;</span>Ignacio Jimenez /&gt;</b></span
+            >,</span
+          >
+          and I am a software developer.
+        </p>
+        <a href="about.html" style="margin-right: 10px" class="button">About</a
+        ><a href="work.html" class="button">See Portfolio</a>
+      </header>
+    </main>
+    <section class="brands-marquee">
+      <div class="brands-track">
+        <img src="img/brand-metro.png" alt="Metro logo" />
+        <img src="img/brand-trivago.png" alt="Trivago logo" />
+        <img src="img/brand-zara.png" alt="Zara logo" />
+        <img src="img/brand-stadiummm.png" alt="Stadiummm logo" />
+      </div>
+    </section>
+    <section class="stack">
+      <img src="img/tools/HTML5.png" alt="HTML5" />
+      <img src="img/tools/CSS3.png" alt="CSS3" />
+      <img src="img/tools/JavaScript.png" alt="JS" />
+      <img src="img/tools/NODE.png" alt="Node" />
+      <img src="img/tools/React.js.png" alt="React" />
+      <img src="img/tools/Angular.js.png" alt="Angular" />
+    </section>
+    <!-- Footer -->
+    <footer class="page-footer">
+      <section class="footer-container">
+        <p class="find-me-on">Find me on:</p>
+        <div class="social-media">
+          <a class="social-media-item" href="mailto:ignajimjim@gmail.com"
+            ><img src="img/email.svg" alt="Gmail"
+          /></a>
+          <a
+            class="social-media-item"
+            href="https://www.linkedin.com/in/ignacio-jimenezjimenez/"
+            target="_blank"
+            ><img src="img/linkedin.svg" alt="Linkedin"
+          /></a>
+          <a
+            class="social-media-item"
+            href="https://github.com/iamnachoj"
+            target="_blank"
+            ><img src="img/github.svg" alt="Github"
+          /></a>
+          <a
+            class="social-media-item"
+            href="https://twitter.com/Iamnachoj"
+            target="_blank"
+            ><img class="twitter" src="img/twitter.png" alt="twitter"
+          /></a>
+        </div>
+      </section>
+    </footer>
+  </body>
 </html>

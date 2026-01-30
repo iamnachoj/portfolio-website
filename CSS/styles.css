@@ -1,3 +1,80 @@
+/* Brands marquee section */
+.brands-marquee {
+  width: 100vw;
+  overflow: hidden;
+  background: transparent;
+  margin: 2em 0 2em 0;
+  padding: 1em 0;
+}
+/* Center brands on desktop, animate on mobile */
+.brands-track {
+  display: flex;
+  align-items: center;
+  gap: 2em;
+  width: max-content;
+  justify-content: center;
+}
+
+@media (min-width: 901px) {
+  .brands-marquee {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .brands-track {
+    margin: 0 auto;
+    justify-content: center;
+    width: auto;
+  }
+}
+.brands-track img {
+  height: 60px;
+  max-width: 140px;
+  width: auto;
+  object-fit: contain;
+  transition: filter 0.3s;
+  vertical-align: middle;
+  background: white;
+  border-radius: 10px;
+  padding: 0px 18px;
+  box-sizing: border-box;
+}
+.brands-track img:hover {
+  filter: none;
+}
+@media (max-width: 900px) {
+  .brands-track {
+    animation: brands-scroll 12s linear infinite alternate;
+  }
+  @keyframes brands-scroll {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(-30%); }
+  }
+}
+/* Spring up animation for main description */
+.spring-up {
+  opacity: 0;
+  transform: translateY(60px) scaleY(0.8);
+  animation: springUp 1s cubic-bezier(.68,-0.55,.27,1.55) .1s forwards;
+}
+
+@keyframes springUp {
+  0% {
+    opacity: 0;
+    transform: translateY(60px) scaleY(0.8);
+  }
+  60% {
+    opacity: 1;
+    transform: translateY(-10px) scaleY(1.05);
+  }
+  80% {
+    transform: translateY(5px) scaleY(0.97);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0) scaleY(1);
+  }
+}
 /* Variables */
 :root {
 
