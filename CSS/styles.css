@@ -55,6 +55,22 @@
   padding: 0px 18px;
   box-sizing: border-box;
 }
+.brand-text {
+  display: flex;
+  align-items: center;
+  height: 60px;
+  padding: 0 18px;
+  box-sizing: border-box;
+  background: white;
+  border-radius: 10px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 800;
+  font-size: 28px;
+  color: #000;
+}
+.brand-accent {
+  color: lab(67.3859% -49.0983 -2.63511);
+}
 .brands-track img:hover {
   filter: none;
 }
